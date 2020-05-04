@@ -1,0 +1,22 @@
+<odoo>
+
+      <menuitem name="Construction" id="construction_root" sequence="3" web_icon="de_construction_app.static/description/icon.png"/>
+      <menuitem name="Construction" id="construction_menu" parent="construction_root" />
+      <menuitem name="Project" id="open_view_project_all_project" parent="construction_menu" action="action_project"/>
+      <menuitem name="Notes" id="notes_menu" parent="construction_menu" action="action_notes"/>
+
+      <menuitem name="Materials/BOQ" id="materialsboq_root" parent="construction_root"/>
+      <menuitem name="Material Requisitions/BOQ" id="boq_menu" parent="materialsboq_root" action="action_boq"/>
+      <menuitem name="Materials" id="mate_menu" parent="materialsboq_root" action="action_materials"/>
+
+      <menuitem name="Job Order" id="joborder_root" parent="construction_root"/>
+      <menuitem name="Job Order" id="orderjobsub_menu" parent="joborder_root" action="action_joborder"/>
+      <menuitem name="Notes" id="notesjob_menu" parent="joborder_root" action="action_notesjob"/>
+
+      <menuitem name="Vendors" id="vendor_root" parent="construction_root"/>
+      <menuitem name="Contractors" id="contractors_menu" parent="vendor_root" action="action_contractors"/>
+
+      <menuitem name="Configuration" id="configuration_root" parent="construction_root"/>
+      <menuitem name="Stages" id="configuration_menu" parent="configuration_root" action="open_task_type_form"/>
+
+    </odoo>

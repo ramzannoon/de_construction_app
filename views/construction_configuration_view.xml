@@ -115,7 +115,4 @@
               </p>
             </field>
         </record>
- <menuitem name="Configuration" id="configuration_root" parent="construction_root"/>
-      <menuitem name="Stages" id="configuration_menu" parent="configuration_root" action="open_task_type_form"/>
-
     </odoo>

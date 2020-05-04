@@ -173,7 +173,5 @@
 
             </field>
         </record>
-     <menuitem name="Job Order" id="joborder_root" parent="construction_root"/>
-      <menuitem name="Job Order" id="orderjobsub_menu" parent="joborder_root" action="action_joborder"/>
-      <menuitem name="Notes" id="notesjob_menu" parent="joborder_root" action="action_notesjob"/>
+
 </odoo>

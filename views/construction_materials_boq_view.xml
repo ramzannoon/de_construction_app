@@ -29,8 +29,6 @@
 
             </field>
         </record>
- <menuitem name="Materials/BOQ" id="materialsboq_root" parent="construction_root"/>
-      <menuitem name="Material Requisitions/BOQ" id="boq_menu" parent="materialsboq_root" action="action_boq"/>
-      <menuitem name="Materials" id="mate_menu" parent="materialsboq_root" action="action_materials"/>
+
 
     </odoo>

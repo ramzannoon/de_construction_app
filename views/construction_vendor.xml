@@ -16,7 +16,6 @@
 
             </field>
         </record>
- <menuitem name="Vendors" id="vendor_root" parent="construction_root"/>
-      <menuitem name="Contractors" id="contractors_menu" parent="vendor_root" action="action_contractors"/>
+
 
     </odoo>

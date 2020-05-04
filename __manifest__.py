@@ -22,19 +22,17 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base','report_xlsx', 'mail'],
+    'depends': ['base', 'mail'],
 
     # always loaded
     'data': [
         'security/ir.model.access.csv',
-        'views/crm_lead_views.xml',
-        'views/materials_boq.xml',
-        'views/job_order.xml',
-        # 'reports/performa_commercial_report.xml',
-        # 'reports/performa_invoice_template.xml',
-        'views/vendor.xml',
-        'views/configuration.xml',
-        'views/templates.xml',
+        'views/construction_materials_boq_view.xml',
+        'views/construction_job_order_view.xml',
+        'views/construction_vendor.xml',
+        'views/construction_configuration_view.xml',
+        'views/construction_project_views.xml',
+        'views/menu_item.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
